@@ -38,6 +38,12 @@ class claseAprobarTest extends PHPUnit_Framework_TestCase {
         $incrementSalary = $connObj->incrementSalary(1000);
         $this->assertEquals(20, $incrementSalary);
     }
+    
+        public function testIncrementSalaryPlus() {
+        $connObj = new RemoteConnect();
+        $incrementSalary = $connObj->incrementSalaryplus(1000);
+        $this->assertEquals(200, $incrementSalary);
+    }
 
   public function testConnectionIsValid2()
   {

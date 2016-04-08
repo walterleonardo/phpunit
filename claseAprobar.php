@@ -34,4 +34,11 @@ class RemoteConnect
   public function incrementSalary( $actualSalary ){  
     return ( 2 * $actualSalary ) /  100;  
 }  
+
+
+
+
+ public function incrementSalaryplus( $actualSalary ){  
+    return ( 2 * $actualSalary ) /  10;  
+}  
 }
